@@ -5,5 +5,3 @@ typedef struct No {
     int dado;
     struct No *esq, *dir;
 } No;
-
-
