@@ -87,6 +87,7 @@ No *insere_rubro(No *raiz, int ch) {
 
     if(e_vermelho(raiz->esq) && e_vermelho(raiz->dir)) {
         sobe_cor(raiz);
+        return raiz;
     }
 
     return raiz;
